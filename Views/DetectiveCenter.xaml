@@ -1,0 +1,43 @@
+﻿<Window x:Class="KatilKimOyunu.Views.DetectiveCenter"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dedektif Merkezi"
+        Height="600"
+        Width="900">
+
+    <Grid Margin="20">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="txtCaseTitle"
+                   FontSize="28"
+                   FontWeight="Bold"/>
+
+        <TextBlock x:Name="txtVictim"
+                   Grid.Row="1"
+                   Margin="0,10"
+                   FontSize="18"/>
+
+        <UniformGrid Grid.Row="2" Rows="4" Columns="2" Margin="0,20">
+            <Button x:Name="btnCrimeScene" Content="🔎 Olay Yeri"/>
+            <Button x:Name="btnAutopsy" Content="🩺 Otopsi"/>
+            <Button x:Name="btnSuspects" Content="👥 Şüpheliler"/>
+            <Button x:Name="btnPhone" Content="📱 Telefon"/>
+            <Button x:Name="btnCamera" Content="📷 Kamera"/>
+            <Button x:Name="btnHouse" Content="🏠 Ev Araştır"/>
+            <Button x:Name="btnNotes" Content="📝 Not Defteri"/>
+            <Button x:Name="btnGuess" Content="⚖ Katili Tahmin Et"/>
+        </UniformGrid>
+
+        <TextBlock x:Name="txtProgress"
+                   Grid.Row="3"
+                   FontSize="18"
+                   FontWeight="Bold"/>
+    </Grid>
+
+</Window>

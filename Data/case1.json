@@ -1,0 +1,48 @@
+﻿{
+  "Title": "Villa Cinayeti",
+
+  "Victim": {
+    "Name": "Ahmet Yılmaz",
+    "Age": 45,
+    "Job": "İş Adamı",
+    "CauseOfDeath": "Göğüs bölgesine tek bıçak darbesi"
+  },
+
+  "Suspects": [
+    {
+      "Name": "Ayşe Yılmaz",
+      "Age": 42,
+      "Job": "Ev Hanımı",
+      "Relationship": "Eşi",
+      "Statement": "Cinayet saatinde odadaydım.",
+      "IsLying": true
+    },
+
+    {
+      "Name": "Mehmet Kara",
+      "Age": 40,
+      "Job": "İş Ortağı",
+      "Relationship": "Ortak",
+      "Statement": "Eve hiç gelmedim.",
+      "IsLying": false
+    }
+  ],
+
+  "Evidences": [
+
+    {
+      "Name": "Kanlı Bıçak",
+      "Description": "Mutfakta bulundu.",
+      "Location": "Mutfak",
+      "IsCollected": false
+    },
+
+    {
+      "Name": "Telefon",
+      "Description": "Masanın üzerinde bulundu.",
+      "Location": "Salon",
+      "IsCollected": false
+    }
+
+  ]
+}
